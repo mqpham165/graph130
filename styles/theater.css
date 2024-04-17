@@ -3,5 +3,76 @@ body{
     padding: 0px;
     box-sizing: border-box;
     font-size: 16px; 
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(../images/darkforest.png);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: none;
+    
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+nav p{
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+header {
+    background-color: rgb(250, 258, 244);
+}
+header img {
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: auto;
+
+}
+main, footer{
+    color:white;
+    display: flex;
+    width: 70%;
+    justify-content:center;
+    margin: 30px auto;
+
+}
+article {
+    width: 60%;
+    padding: 10px;
+}
+article{
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+}
+main ul{
+    width: 40%;
+    padding: 10px;
+    align-self:flex-end;
+}
+main ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: solid white 1px;
+    text-align: center;
+}
+nav p:hover,
+main ul li:hover {
+    background-color: white;
+    color: slategrey;
+}
+h1{
+    font-size:3em;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    line-height:2em;
+}
+nav p,
+footer a{
+    color: darkorange;
 }
