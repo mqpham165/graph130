@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opitimazing Images</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"> 
     <link href="../styles/navigation.css" rel="stylesheet" type="text/css">
+    <link href="../styles/mobile-nav.css" rel="stylesheet">
         <style>
             .loki{
                 background-color: gray;
@@ -40,14 +41,40 @@
         </style>
 </head>
 <body>
-    <nav class="pure-g sample">
+    <nav class="navbar">
+        <div class="page-title">
+            <p>
+                Graph 130 - Spring 2024
+            </p>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="pages/history-refactor.html">History</a></li>
+                <li><a href="pages/stewrecipe.html">Stew Recipe</a></li>
+                <li><a href="pages/theater2.html">Theater</a></li>
+                <li><a href="pages/cascade.html">Cascade</a></li>
+                <li><a href="pages/fluid.html">Fluid</a></li>
+                <li><a href="pages/media-queries.html">Media Queries</a></li>
+                <li><a href="pages/optimizing-images.html">Optimizing Imges</a></li>
+                <li><a href="pages/orcas.html">Orcas Island</a></li>
+                <li><a href="pages/lopez.html">Lopez Island</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <nav class="pure-g sample">
         <div class="pure-u-1-6"><a href="../index.html">Home</a></div>
         <div class="pure-u-1-6"><a href="theater2.html">Theater Bill</a></div>
         <div class="pure-u-1-6"><a href="history-refactor.html">History</a></div>
         <div class="pure-u-1-6"><a href="stewrecipe.html">Stew Recipe</a></div>
         <div class="pure-u-1-6"><a href="cascade.html">Cascades</a></div>
         <div class="pure-u-1-6"><a href="optimizing-images.html">Images</a></div>
-    </nav>
+    </nav> -->
     <h1>Optimizing Images</h1>
     <article class="loki">
         <img src="../images/80.jpg" alt="89 percent jpg sample" height="500px">

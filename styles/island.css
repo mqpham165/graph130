@@ -1,7 +1,7 @@
 :root{
     --blue:#11467D;
     --green:#4C7335;
-    --white: #ffffff;
+    /* --white: #ffffff; */
     font-family: "Raleway", sans-serif;
     color: var(--blue);
 }
