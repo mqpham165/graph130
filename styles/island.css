@@ -54,7 +54,7 @@ main section{
 }
 /*styling element*/ 
 header{
-    background-color:var(--white);
+    /* background-color:var(--white); */
     text-align: center;
 }
 .logo1 {
