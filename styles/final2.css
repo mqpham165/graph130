@@ -1,0 +1,208 @@
+/* CSS reset from https://www.digitalocean.com/community/tutorials/css-minimal-css-reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* our styles */
+h1, h2, h3, h4{
+    font-family: "League Spartan", sans-serif;
+}
+.sponge{
+    font-family: "Quicksand", sans-serif;
+}
+p{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+body{
+    background-image: url(../images/mb-leaves.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:rgba(246, 246, 219, 0.5);
+    background-blend-mode: screen;
+}
+/* header style */
+header, .core{
+    background-color: #6c8270;
+}
+h1{
+    font-size: 3em;
+    text-align: right;
+}
+header h2{
+    text-align: right;
+    font-size: 1em;
+}
+header div{
+    padding: 30px 0;
+    width: 400px;
+}
+nav{
+    background-color:#4a6b4f;
+}
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration:none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color:#304533;
+    color:white
+}
+/* section styles */
+section{
+    background-color: #c6baad;
+    margin-bottom: 20em;
+}
+.welcome{
+    padding: 5em;
+}
+h2{
+    font-size: 5em;
+    text-transform:capitalize;
+}
+p{
+
+}
+.darkleaves{
+    background-image: url(../images/mb-dark-leaves.jpg);
+    height: 600px;
+}
+.sponge{
+    font-size:.5em;
+}
+.amber{
+    padding: 100px 0 150px 86px;
+}
+.amber h2, .amber p{
+    width: 66%;
+}
+.no-margin{
+    margin: 0px;
+}
+.versus{
+    margin: 120px 0px;
+    text-align: center;
+}
+.marla h2{
+    padding-left: 86px;
+}
+.marla p{
+    text-align:center;
+    font-size: 2em;
+    padding: 100px;
+    /* background-color: white; */
+    border-radius: 50%;
+    width: 300px;
+    display: block;
+    margin: 30px auto;
+}
+/* circles in the "steps of change"div */
+.z-shape{
+    background-image: url(../images/z-shape.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+p.comfort{
+    background-color: #a2b199;
+}
+p.fear{
+    background-color: #86986d;
+}
+p.learning{
+    background-color: #577753;
+}
+p.growth{
+    background-color: #415741;
+}
+.core h3{
+    font-size: 6em;
+    text-align: center;
+}
+.core h4, footer h2{
+    font-size: 3em;
+}
+.core .pure-u-1-2{
+    padding: 50px;
+    border: solid black 1px;
+    background-color: #a2b199;
+}
+.core .pure-u-1-2:hover{
+    background-color: #cde0c2;
+}
+.purple{
+    background-color: #a2b199;
+}
+.darkleaves2{
+    background-image: url(../images/mb-dark-leaves.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+footer{
+    padding: 86px;
+    background-color: #86986d;
+}
+footer div{
+    padding: 15px;
+    /* border: solid white; */
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+.social{
+    padding: 0px; 
+}
+.contact{
+    padding-bottom:50px;
+}
+@media screen and (max-width: 550px){
+    .z-shape{
+        background-image: none;
+    }
+    body div{
+        text-align: center;
+    }
+    .amber h2, .amber p{
+        text-align: center;
+    }
+    header h1, header h2{
+        text-align: right;
+        padding-right: 30px;
+    }
+    .marla h2{
+        padding: 0;
+    }
+    h2{
+        font-size: 2em;
+    }
+    header .pure-g{
+        flex-direction: column;
+    }
+    header .pure-u-1-4{
+        min-width: 100%;
+    }
+}

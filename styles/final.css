@@ -29,11 +29,7 @@ main aside div{
     padding: 5px;
     box-sizing: border-box;
 }
-.butterfly, .worm{
+.butterfly{
     height: 250px;
     padding-top: 100px; 
-}
-.worm{
-    height: 250px;
-    padding-top: 100px;
 }
