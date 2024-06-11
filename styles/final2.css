@@ -23,6 +23,11 @@ html {
     height: auto;
   }
 /* our styles */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1, h2, h3, h4{
     font-family: "League Spartan", sans-serif;
     display: block;
