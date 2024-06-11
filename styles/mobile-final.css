@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px){
+@media screen and (max-width: 1000px){
     nav, main, footer, article, main ul, header, nav ul, .leroy, .loki, body{
         width: 100%;
         display: block;
@@ -14,11 +14,7 @@
     .pure-u-1-5, .pure-u-1-2{
         width: 100%;
     }
-    .z-shape{
-        background-image: none;
-    }
     .amber h2, .amber p{
         width: auto;
     }
 }
-    

@@ -25,6 +25,7 @@ html {
 /* our styles */
 h1, h2, h3, h4{
     font-family: "League Spartan", sans-serif;
+    display: block;
 }
 .sponge{
     font-family: "Quicksand", sans-serif;
@@ -86,7 +87,9 @@ p{
 }
 .darkleaves{
     background-image: url(../images/mb-dark-leaves.jpg);
-    height: 600px;
+    background-repeat: no-repeat;
+    height: auto; 
+    background-size: cover;
 }
 .sponge{
     font-size:.5em;
@@ -179,9 +182,9 @@ footer a{
 .contact{
     padding-bottom:50px;
 }
-@media screen and (max-width: 550px){
-    .z-shape{
-        background-image: none;
+@media screen and (max-width: 1000px){
+    body{
+        text-align: center;
     }
     body div{
         text-align: center;
@@ -204,5 +207,15 @@ footer a{
     }
     header .pure-u-1-4{
         min-width: 100%;
+    }
+}
+@media screen and (max-width: 1400px){
+    .z-shape{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 1000px){
+    .darkleaves{
+        background-image: none;
     }
 }
